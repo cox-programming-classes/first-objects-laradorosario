@@ -1,6 +1,11 @@
 ﻿using FirstObjects_2024;
 
 Console.WriteLine("Let's Play Cards!");
-
-Card card = new (Suit.Spades, Value.AceHigh);
-Console.WriteLine($"Check out that {card}!");
+// create a new deck
+deck deck = new();
+foreach (var card in deck)
+{
+    Console.WriteLine(card);
+}
+//Card card = new (Suit.Spades, Value.AceHigh);
+//Console.WriteLine($"Check out that {card}!");
